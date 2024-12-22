@@ -1,0 +1,15 @@
+external class Console {
+	// write a line without return
+	static function write(line: str)
+	
+	// write a line ends with return
+	static function writeln(line: str)
+	
+	static function getln(info: str) -> str
+	
+	static function eraseLine()
+	
+	static function setTitle(title: str)
+	
+	static function clear()
+}

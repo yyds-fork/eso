@@ -1,0 +1,38 @@
+{
+  "name": "hetu-docs",
+  "version": "0.1.0",
+  "description": "Documents of Hetu script language.",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetu-script/hetu-script.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hetu-script/hetu-script/issues"
+  },
+  "homepage": "https://github.com/hetu-script/hetu-script",
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.47",
+    "@vuepress/bundler-vite": "^2.0.0-beta.61",
+    "@vuepress/client": "^2.0.0-beta.61",
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.61",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.61",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.61",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.61",
+    "@vuepress/plugin-search": "^2.0.0-beta.61",
+    "@vuepress/shared": "^2.0.0-beta.61",
+    "@vuepress/theme-default": "^2.0.0-beta.61",
+    "@vuepress/utils": "^2.0.0-beta.61",
+    "nprogress": "^0.2.0",
+    "vuepress": "^2.0.0-beta.61"
+  }
+}

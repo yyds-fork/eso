@@ -1,0 +1,10 @@
+external class Future {
+
+  static function wait(futures: List) -> Future //, { cleanUp: (successValue) -> void })
+
+  static function value(possibleFuture) -> Future
+
+  constructor (func: function)
+
+  function then(func: (value) -> any) -> Future
+}

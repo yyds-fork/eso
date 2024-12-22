@@ -1,0 +1,6 @@
+
+import 'hello3.ht' as meaning
+
+function hello {
+  return 'another hello!'
+}

@@ -1,0 +1,8 @@
+function hello(words: str, [times: num = 112]) {
+  print(words, times)
+}
+
+// 程序入口
+function main {
+  hello('hello')
+}

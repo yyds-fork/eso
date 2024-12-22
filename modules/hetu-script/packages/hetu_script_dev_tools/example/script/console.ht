@@ -1,0 +1,5 @@
+
+function main {
+  final username = Console.getln('What\'s your name? ...')
+  print('Hi! ${username}.')
+}

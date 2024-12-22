@@ -1,0 +1,5 @@
+import 'hello/hello.ht' as h
+
+function hello {
+  return h.hello()
+}

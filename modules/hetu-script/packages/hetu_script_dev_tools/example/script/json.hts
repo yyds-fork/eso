@@ -1,0 +1,3 @@
+import 'values.jsonc' as json
+
+print(json)

@@ -1,0 +1,3 @@
+import 'hello.ht'
+
+print(h2())

@@ -1,0 +1,29 @@
+struct Prototype {
+  static function fromJson(data) => createStructfromJson(data)
+
+  external get keys -> Iterable
+
+  external get values -> Iterable
+
+  /// Check if this struct has the key in its own fields
+  external function containsKey(key: str) -> bool
+
+  /// Check if this struct has the key in its own fields or its prototypes' fields
+  external function contains(key: str) -> bool
+
+	external get isEmpty -> bool
+
+	external get isNotEmpty -> bool
+
+	external get length -> int
+
+  /// Create a new struct form deepcopying this struct
+  external function clone() -> {}
+
+  /// Assign another struct's value to this struct
+  external function assign(other)
+
+  function toJson() -> Map => jsonify(this)
+
+  function toString() -> str => stringify(this)
+}

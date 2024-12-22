@@ -1,0 +1,46 @@
+class Root {
+  var name = 'the machine'
+
+  function intro() {
+    print('name is', name);
+  }
+}
+
+class Types extends Root {
+
+  var _age = 42
+
+  constructor (the_name: str) {
+    name = the_name;
+  }
+
+  get age -> num {
+    return _age
+  }
+
+  set age(value: num) {
+    _age = value
+  }
+
+  function greeting {
+    intro()
+    print('my age is', age)
+  }
+}
+
+// 程序入口
+function main {
+  print(3.toString())
+  
+  print(true.toString())
+
+  print({ "hi": 42 }.toString())
+
+  var t = Types('finch')
+
+
+  print(t.name)
+
+  t.greeting()
+  
+}

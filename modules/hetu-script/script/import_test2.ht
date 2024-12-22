@@ -1,0 +1,8 @@
+import 'hello.ht'
+import 'hello2.ht'
+import 'hello3.ht' as meaning
+
+function main {
+
+  return hello()
+}

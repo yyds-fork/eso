@@ -6,60 +6,60 @@ homepage: https://github.com/mabdc/eso
 author: mabdc
 
 environment:
-  sdk: ">=2.7.0 <3.2.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  about: ^2.0.0
-  archive: ^3.1.2
+  about: ^2.2.0
+  archive: ^3.6.1
   # audioplayers: ^3.0.1
-  battery_plus: ^2.1.3
-  cached_network_image: ^3.0.0
-  device_info: ^2.0.0
+  battery_plus: ^6.2.0
+  cached_network_image: ^3.4.1
+  device_info_plus: ^11.1.0
+#  dlna_dart: ^0.0.8
   dlna:
     path: modules/DLNA-Dart
-  encrypt: ^5.0.0
-  equatable: ^2.0.0
-  fast_gbk: ^0.1.2+1
-  filesystem_picker: ^3.1.0
-  floor: ^1.0.1
-  webview_windows: ^0.1.6
+  encryptor: ^0.0.1
+  equatable: ^2.0.5
+  fast_gbk: ^1.0.0
+  filesystem_picker: ^4.1.0
+  floor: ^1.5.0
+  webview_windows: ^0.4.0
   # xpath_selector: ^2.2.4
   xpath_selector:
     path: modules/xpath_selector
   flutter:
     sdk: flutter
-  flutter_colorpicker: ^1.0.3
-  flutter_highlight: ^0.6.0
-  flutter_localizations:
-    sdk: flutter
+  flutter_colorpicker: ^1.1.0
+  flutter_highlight: ^0.7.0
+  flutter_localization: ^0.2.2
   flutter_qjs: ^0.3.7
   # text_to_speech: ^0.2.3
-  flutter_tts: ^3.5.3
-  flutter_webview:
-    path: modules/flutter_webview
-  html: ^0.15.0
-  http: ^0.13.1
-  image_gallery_saver: ^1.6.8
-  intl: ^0.17.0
-  json_path: ^0.3.0
-  matrix_gesture_detector: ^0.1.0
-  oktoast: ^3.0.0
-  outline_material_icons: ^0.1.1
-  package_info_plus: ^1.0.0
-  path_provider: ^2.0.1
-  permission_handler: ^7.0.0
-  photo_view: ^0.13.0
-  provider: ^5.0.0
+  flutter_tts: ^4.0.2
+#  flutter_webview:
+#    path: modules/flutter_webview
+  html: ^0.15.5
+  http: ^1.2.2
+  image_gallery_saver: ^2.0.3
+  intl: ^0.19.0
+  json_path: ^0.7.4
+  matrix_gesture_detector_pro: ^1.0.0
+  oktoast: ^3.4.0
+  outline_material_icons: ^1.0.0
+  package_info_plus: ^8.0.3
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  photo_view: ^0.15.0
+  provider: ^6.1.2
   device_display_brightness: ^0.0.6
-  scrollable_positioned_list: ^0.1.10
-  share_plus: ^4.0.2
-  shared_preferences: ^2.0.13
-  sqflite_common_ffi: ^2.0.0
+  scrollable_positioned_list: ^0.3.8
+  share_plus: ^10.1.1
+  shared_preferences: ^2.3.2
+  sqflite_common_ffi: ^2.3.4
   text_composition:
     path: modules/text_composition
-  url_launcher: ^6.0.3
-  uuid: ^3.0.4
-  video_player: ^2.1.1
+  url_launcher: ^6.3.1
+  uuid: ^4.5.1
+  video_player: ^2.9.2
   # video_player_macos:
   #   git:
   #     url: https://github.com/cbenhagen/plugins.git
@@ -72,36 +72,41 @@ dependencies:
   webdav:
     # git: https://github.com/timestee/dart-webdav
     path: modules/dart-webdav
-  webview_flutter:
-    path: modules/webview_flutter
-  http_multi_server: ^3.2.0
-  window_manager: ^0.1.5
+  webview_flutter: ^4.10.0
+#  webview_flutter:
+#    path: modules/webview_flutter
+  http_multi_server: ^3.2.1
+  window_manager: ^0.4.2
   hive_flutter: ^1.1.0
   # explorer: ^2.1.0
-  epubx: ^3.0.0
+  epubx: ^4.0.0
+  xml: ^6.0.1
   # win32: ^2.4.2
-  file_picker: ^4.5.1+3
-  flutter_inappwebview: ^5.4.3+7
-  flutter_hooks: ^0.18.5+1
-  hetu_script_flutter: ^0.1.0+2
-  flutter_displaymode: ^0.5.0
-  uni_links: ^0.5.1
+  file_picker: ^8.1.3
+  flutter_inappwebview: ^6.1.5
+  flutter_hooks: ^0.20.5
+#  hetu_script_flutter: ^0.1.0+2
+  _hetu_script_dev:
+    path: modules/hetu-script
+  flutter_displaymode: ^0.6.0
+#  uni_links: ^0.5.1
+  uni_links3: ^0.5.3
   # audio_service: ^0.18.9
-  waterfall_flow: ^3.0.2
+  waterfall_flow: ^3.0.3
   flutter_lyric: ^2.0.4+6
-  just_audio: ^0.9.35
+  just_audio: ^0.9.42
   # just_audio_background: ^0.0.1-beta.10
-  just_audio_windows: ^0.2.0
+  just_audio_windows: ^0.2.2
   just_audio_mpv: ^0.1.7
-  audio_service: ^0.18.12
+  audio_service: ^0.18.15
   auto_orientation: ^2.3.1
   # video_player_media_kit: ^0.0.5
   # video_player_win: ^2.2.2
   
 
 dev_dependencies:
-  build_runner: ^1.11.5
-  floor_generator: ^1.0.1
+  build_runner: ^2.4.13
+  floor_generator: ^1.5.0
   flutter_test:
     sdk: flutter
 
